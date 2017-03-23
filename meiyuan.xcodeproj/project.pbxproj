@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89544C1E1E83A64F00892F41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89544C1D1E83A64F00892F41 /* main.m */; };
+		89544C211E83A64F00892F41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89544C201E83A64F00892F41 /* AppDelegate.m */; };
+		89544C241E83A64F00892F41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89544C231E83A64F00892F41 /* ViewController.m */; };
+		89544C271E83A64F00892F41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89544C251E83A64F00892F41 /* Main.storyboard */; };
+		89544C291E83A64F00892F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89544C281E83A64F00892F41 /* Assets.xcassets */; };
+		89544C2C1E83A64F00892F41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89544C2A1E83A64F00892F41 /* LaunchScreen.storyboard */; };
+		89544C371E83A64F00892F41 /* meiyuanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89544C361E83A64F00892F41 /* meiyuanTests.m */; };
+		89544C421E83A64F00892F41 /* meiyuanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89544C411E83A64F00892F41 /* meiyuanUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89544C331E83A64F00892F41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89544C111E83A64F00892F41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89544C181E83A64F00892F41;
+			remoteInfo = meiyuan;
+		};
+		89544C3E1E83A64F00892F41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89544C111E83A64F00892F41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89544C181E83A64F00892F41;
+			remoteInfo = meiyuan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89544C191E83A64F00892F41 /* meiyuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meiyuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89544C1D1E83A64F00892F41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89544C1F1E83A64F00892F41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89544C201E83A64F00892F41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89544C221E83A64F00892F41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		89544C231E83A64F00892F41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		89544C261E83A64F00892F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89544C281E83A64F00892F41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89544C2B1E83A64F00892F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89544C2D1E83A64F00892F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89544C321E83A64F00892F41 /* meiyuanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meiyuanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89544C361E83A64F00892F41 /* meiyuanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = meiyuanTests.m; sourceTree = "<group>"; };
+		89544C381E83A64F00892F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89544C3D1E83A64F00892F41 /* meiyuanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meiyuanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89544C411E83A64F00892F41 /* meiyuanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = meiyuanUITests.m; sourceTree = "<group>"; };
+		89544C431E83A64F00892F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89544C161E83A64F00892F41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89544C2F1E83A64F00892F41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89544C3A1E83A64F00892F41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89544C101E83A64F00892F41 = {
+			isa = PBXGroup;
+			children = (
+				89544C1B1E83A64F00892F41 /* meiyuan */,
+				89544C351E83A64F00892F41 /* meiyuanTests */,
+				89544C401E83A64F00892F41 /* meiyuanUITests */,
+				89544C1A1E83A64F00892F41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89544C1A1E83A64F00892F41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89544C191E83A64F00892F41 /* meiyuan.app */,
+				89544C321E83A64F00892F41 /* meiyuanTests.xctest */,
+				89544C3D1E83A64F00892F41 /* meiyuanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89544C1B1E83A64F00892F41 /* meiyuan */ = {
+			isa = PBXGroup;
+			children = (
+				89544C1F1E83A64F00892F41 /* AppDelegate.h */,
+				89544C201E83A64F00892F41 /* AppDelegate.m */,
+				89544C221E83A64F00892F41 /* ViewController.h */,
+				89544C231E83A64F00892F41 /* ViewController.m */,
+				89544C251E83A64F00892F41 /* Main.storyboard */,
+				89544C281E83A64F00892F41 /* Assets.xcassets */,
+				89544C2A1E83A64F00892F41 /* LaunchScreen.storyboard */,
+				89544C2D1E83A64F00892F41 /* Info.plist */,
+				89544C1C1E83A64F00892F41 /* Supporting Files */,
+			);
+			path = meiyuan;
+			sourceTree = "<group>";
+		};
+		89544C1C1E83A64F00892F41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89544C1D1E83A64F00892F41 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89544C351E83A64F00892F41 /* meiyuanTests */ = {
+			isa = PBXGroup;
+			children = (
+				89544C361E83A64F00892F41 /* meiyuanTests.m */,
+				89544C381E83A64F00892F41 /* Info.plist */,
+			);
+			path = meiyuanTests;
+			sourceTree = "<group>";
+		};
+		89544C401E83A64F00892F41 /* meiyuanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89544C411E83A64F00892F41 /* meiyuanUITests.m */,
+				89544C431E83A64F00892F41 /* Info.plist */,
+			);
+			path = meiyuanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89544C181E83A64F00892F41 /* meiyuan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89544C461E83A64F00892F41 /* Build configuration list for PBXNativeTarget "meiyuan" */;
+			buildPhases = (
+				89544C151E83A64F00892F41 /* Sources */,
+				89544C161E83A64F00892F41 /* Frameworks */,
+				89544C171E83A64F00892F41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = meiyuan;
+			productName = meiyuan;
+			productReference = 89544C191E83A64F00892F41 /* meiyuan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89544C311E83A64F00892F41 /* meiyuanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89544C491E83A64F00892F41 /* Build configuration list for PBXNativeTarget "meiyuanTests" */;
+			buildPhases = (
+				89544C2E1E83A64F00892F41 /* Sources */,
+				89544C2F1E83A64F00892F41 /* Frameworks */,
+				89544C301E83A64F00892F41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89544C341E83A64F00892F41 /* PBXTargetDependency */,
+			);
+			name = meiyuanTests;
+			productName = meiyuanTests;
+			productReference = 89544C321E83A64F00892F41 /* meiyuanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89544C3C1E83A64F00892F41 /* meiyuanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89544C4C1E83A64F00892F41 /* Build configuration list for PBXNativeTarget "meiyuanUITests" */;
+			buildPhases = (
+				89544C391E83A64F00892F41 /* Sources */,
+				89544C3A1E83A64F00892F41 /* Frameworks */,
+				89544C3B1E83A64F00892F41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89544C3F1E83A64F00892F41 /* PBXTargetDependency */,
+			);
+			name = meiyuanUITests;
+			productName = meiyuanUITests;
+			productReference = 89544C3D1E83A64F00892F41 /* meiyuanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89544C111E83A64F00892F41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = tongho;
+				TargetAttributes = {
+					89544C181E83A64F00892F41 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					89544C311E83A64F00892F41 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 89544C181E83A64F00892F41;
+					};
+					89544C3C1E83A64F00892F41 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 89544C181E83A64F00892F41;
+					};
+				};
+			};
+			buildConfigurationList = 89544C141E83A64F00892F41 /* Build configuration list for PBXProject "meiyuan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89544C101E83A64F00892F41;
+			productRefGroup = 89544C1A1E83A64F00892F41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89544C181E83A64F00892F41 /* meiyuan */,
+				89544C311E83A64F00892F41 /* meiyuanTests */,
+				89544C3C1E83A64F00892F41 /* meiyuanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89544C171E83A64F00892F41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89544C2C1E83A64F00892F41 /* LaunchScreen.storyboard in Resources */,
+				89544C291E83A64F00892F41 /* Assets.xcassets in Resources */,
+				89544C271E83A64F00892F41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89544C301E83A64F00892F41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89544C3B1E83A64F00892F41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89544C151E83A64F00892F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89544C241E83A64F00892F41 /* ViewController.m in Sources */,
+				89544C211E83A64F00892F41 /* AppDelegate.m in Sources */,
+				89544C1E1E83A64F00892F41 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89544C2E1E83A64F00892F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89544C371E83A64F00892F41 /* meiyuanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89544C391E83A64F00892F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89544C421E83A64F00892F41 /* meiyuanUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89544C341E83A64F00892F41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89544C181E83A64F00892F41 /* meiyuan */;
+			targetProxy = 89544C331E83A64F00892F41 /* PBXContainerItemProxy */;
+		};
+		89544C3F1E83A64F00892F41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89544C181E83A64F00892F41 /* meiyuan */;
+			targetProxy = 89544C3E1E83A64F00892F41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89544C251E83A64F00892F41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89544C261E83A64F00892F41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89544C2A1E83A64F00892F41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89544C2B1E83A64F00892F41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89544C441E83A64F00892F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		89544C451E83A64F00892F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89544C471E83A64F00892F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = meiyuan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xidian.meiyuan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89544C481E83A64F00892F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = meiyuan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xidian.meiyuan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		89544C4A1E83A64F00892F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = meiyuanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xidian.meiyuanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meiyuan.app/meiyuan";
+			};
+			name = Debug;
+		};
+		89544C4B1E83A64F00892F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = meiyuanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xidian.meiyuanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meiyuan.app/meiyuan";
+			};
+			name = Release;
+		};
+		89544C4D1E83A64F00892F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = meiyuanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xidian.meiyuanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = meiyuan;
+			};
+			name = Debug;
+		};
+		89544C4E1E83A64F00892F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = meiyuanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xidian.meiyuanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = meiyuan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89544C141E83A64F00892F41 /* Build configuration list for PBXProject "meiyuan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89544C441E83A64F00892F41 /* Debug */,
+				89544C451E83A64F00892F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89544C461E83A64F00892F41 /* Build configuration list for PBXNativeTarget "meiyuan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89544C471E83A64F00892F41 /* Debug */,
+				89544C481E83A64F00892F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		89544C491E83A64F00892F41 /* Build configuration list for PBXNativeTarget "meiyuanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89544C4A1E83A64F00892F41 /* Debug */,
+				89544C4B1E83A64F00892F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		89544C4C1E83A64F00892F41 /* Build configuration list for PBXNativeTarget "meiyuanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89544C4D1E83A64F00892F41 /* Debug */,
+				89544C4E1E83A64F00892F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89544C111E83A64F00892F41 /* Project object */;
+}
